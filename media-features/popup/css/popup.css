@@ -1,14 +1,20 @@
 .popup__close {
-  width: 28px;
-  height: 20px;
-  font-size: 20px;
+    width: 1.4em; /* 28/20 */
+    height: 1em; /* 20/20 */
+    font-size: 20px;
 
-  position: absolute;
-  top: -30px;
-  right: 0;  
+    position: absolute;
+    top: -1.5em; /* -30/20 */
+    right: 0;
 }
 
 .popup__close:before, .popup__close:after {
-  width: 28px;
-  height: 4px;
+    width: 1.4em; /* 28/20 */
+    height: 0.2em; /* 4/20 */
+}
+
+@media screen and (max-width: 481px) {
+    .popup__close {
+        font-size: 15px;
+    }
 }
