@@ -1,0 +1,16 @@
+.news__list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 641px) {
+    .news__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+}
+
+
