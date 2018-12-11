@@ -4,7 +4,7 @@
 
 }
 
-@media screen and (min-width: 641px) {
+@media  (min-width: 641px) {
     .news__list {
         flex-direction: row;
         flex-wrap: wrap;
