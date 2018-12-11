@@ -1,6 +1,7 @@
-.search__icon path {
+.search__icon {
     fill: white;
 }
-.search__group:focus-within .search__icon path {
+
+.search__group:focus-within .search__icon {
     fill: #6441a5;
 }
