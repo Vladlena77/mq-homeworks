@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-@media (max-width: 481px) {
+@media (max-width: 480px) {
 
     .section__header {
         font-size: 10px;
