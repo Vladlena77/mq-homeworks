@@ -4,10 +4,6 @@
     margin: auto;
 }
 
-.caption {
-    width: 100%;
-}
-
 .poster {
-    width: 100%;
+    max-width: 100%;
 }
