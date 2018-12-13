@@ -1,0 +1,10 @@
+@media (orientation: landscape) {
+    .card {
+        width: 50%;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
